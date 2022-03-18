@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".recipe.UpdateRecipe"></activity>
+        <activity android:name=".birthday.UpdateBirthday"></activity>
+        <activity android:name=".birthday.BirthdayList" />
+        <activity android:name=".birthday.NewBirthday" />
+        <activity android:name=".birthday.BirthdayBook" />
+        <activity android:name=".recipe.UpdateRecipe" />
         <activity android:name=".recipe.RecipeList" />
         <activity android:name=".recipe.NewRecipe" />
         <activity android:name=".recipe.RecipeBook" />
