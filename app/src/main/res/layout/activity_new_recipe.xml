@@ -39,9 +39,10 @@
         android:layout_marginStart="16dp"
         android:contentDescription="@string/app_name"
         android:src="@drawable/ic_menu"
-        android:tint="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="15dp" />
+        tools:layout_editor_absoluteY="15dp"
+        tools:ignore="MissingConstraints"
+        app:tint="#000000" />
 
     <ImageView
         android:id="@+id/search"
@@ -52,7 +53,8 @@
         android:src="@drawable/ic_search"
         android:tint="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="17dp" />
+        tools:layout_editor_absoluteY="17dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/newRecipiceText"
@@ -104,7 +106,8 @@
         android:inputType="textPersonName"
         android:text="Enter Recipie Name"
         app:layout_constraintTop_toBottomOf="@+id/mainTop2"
-        tools:layout_editor_absoluteX="38dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
@@ -119,7 +122,8 @@
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/btnAddRecipie"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="49dp" />
+        tools:layout_editor_absoluteX="49dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -130,6 +134,7 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
         app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="49dp" />
+        tools:layout_editor_absoluteX="49dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
